@@ -8,21 +8,15 @@ public class HelloWorld {
  */
     public static void main(String[] args) {
 
+        //String message = new String("Hello world");
 
-        byte x = 2;
-        byte y = x;
+        String message = "Hello World" + "!!";
 
-        x = 4;
-        System.out.println(y);
+        //message.endsWith("!!");
 
-
-        Point point1 = new Point(1, 1);
-        Point point2 = point1;
-        point1.x = 2;
-        System.out.println(point2);
-        /*
-            Reference types are copied by the references while primitive types are copied by their value
-        */
+        System.out.println(message.length());
+        System.out.println(message.indexOf("H"));
+        System.out.println(message.replace("!", "*"));
     
     }
 }
