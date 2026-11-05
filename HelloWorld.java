@@ -4,15 +4,12 @@ public class HelloWorld {
  the class
  */
     public static void main(String[] args) {
-        /*
-        main
-        The entrypoint to your program. Java cant execute without it
 
-        static
-        
-        
-        */
-        System.out.println("Hello, World!");
+        int age = 30;
+        int temperature = 20;
+        int newAAge = age;
+        System.out.println(newAAge);
+    
     }
 }
  
