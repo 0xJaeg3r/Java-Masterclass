@@ -5,10 +5,14 @@ public class HelloWorld {
  */
     public static void main(String[] args) {
 
-        int age = 30;
-        int temperature = 20;
-        int newAAge = age;
-        System.out.println(newAAge);
+        byte age = 30;
+        int viewsCount = 123_234_123;
+        long viewsCountNew = 7_123_234_123L;
+        float prince = 10.99F;
+        char letter = 'A';
+        boolean isEligible = false;
+
+        System.out.println(viewsCount);
     
     }
 }
