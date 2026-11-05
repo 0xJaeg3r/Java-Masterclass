@@ -1,3 +1,5 @@
+import java.util.Date;
+
 public class HelloWorld {
     /*
  Java code cannot float around freely. everything must live inside a class. so over here we are delcaring
@@ -5,14 +7,12 @@ public class HelloWorld {
  */
     public static void main(String[] args) {
 
-        byte age = 30;
-        int viewsCount = 123_234_123;
-        long viewsCountNew = 7_123_234_123L;
-        float prince = 10.99F;
-        char letter = 'A';
-        boolean isEligible = false;
+       byte age = 30;
+       // When dealing with reference types, always allocate memory
+       Date now = new  Date();
+       //reference types have members
 
-        System.out.println(viewsCount);
+        System.out.println(now);
     
     }
 }
